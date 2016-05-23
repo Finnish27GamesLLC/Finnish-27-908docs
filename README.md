@@ -19,7 +19,7 @@ The size of the effect of the removal of any given rank of card is inversely pro
 MODELING THE BEHAVIOR OF HUMAN CARD COUNTERS: BALANCED-CARD-COUNTING STRATEGIES
 
 Balanced-card-counting strategies call for players to assign count values to each rank of card such that when added together these count values equal zero.  For example, the following is a balanced-card-counting strategy that works well for the computer-controlled player in a simulation of the second-optional embodiment wherein: Each deck of cards consists of thirteen ranks of each of Four French suits.  The count values assigned individually to the cards by rank are as follows. Each card bearing indicia representative of the rank of ace, counts as negative one. Each card bearing indicia representative of a rank selected from a group of ranks consisting of two, three, four, five, six, and seven, counts as positive one. Each card bearing indicia representative of the rank of eight, counts as zero. Each card bearing indicia representative of a rank selected from a group of ranks consisting of nine, ten, jack, queen, and king, counts as negative one. 
-
+ 
 The following table shows that the sum of all count values assigned to all ranks of cards present in each fifty-two card deck is equal to zero. There is a balance of positive count values and negative count values and as such, this card-counting strategy is a balanced-card-counting strategy.
 
 Rank			Count Value		Number Of Cards  		TOTAL 
