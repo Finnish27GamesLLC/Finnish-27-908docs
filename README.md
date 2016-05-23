@@ -20,26 +20,6 @@ MODELING THE BEHAVIOR OF HUMAN CARD COUNTERS: BALANCED-CARD-COUNTING STRATEGIES
 
 Balanced-card-counting strategies call for players to assign count values to each rank of card such that when added together these count values equal zero.  For example, the following is a balanced-card-counting strategy that works well for the computer-controlled player in a simulation of the second-optional embodiment wherein: Each deck of cards consists of thirteen ranks of each of Four French suits.  The count values assigned individually to the cards by rank are as follows. Each card bearing indicia representative of the rank of ace, counts as negative one. Each card bearing indicia representative of a rank selected from a group of ranks consisting of two, three, four, five, six, and seven, counts as positive one. Each card bearing indicia representative of the rank of eight, counts as zero. Each card bearing indicia representative of a rank selected from a group of ranks consisting of nine, ten, jack, queen, and king, counts as negative one. 
  
-The following table shows that the sum of all count values assigned to all ranks of cards present in each fifty-two card deck is equal to zero. There is a balance of positive count values and negative count values and as such, this card-counting strategy is a balanced-card-counting strategy.
-
-Rank			Count Value		Number Of Cards  		TOTAL 
-
-Ace			  -1			         4				        -4
-Two			  +1			         4				        +4
-Three			+1			         4				        +4
-Four 			+1			         4				        +4
-Five			+1			         4				        +4
-Six			  +1			         4				        +4
-Seven 		+1 			         4				        +4
-Eight 		 0			         4				         0		
-Nine			-1			         4				        -4
-Ten			  -1			         4				        -4
-Jack			-1			         4				        -4
-Queen			-1			         4				        -4
-King			-1			         4				        -4			
-___________________________________________________________________
-Totals 		 0			        52				         0
-
 At the beginning of the shoe, if the card counter is using a balanced-card-counting strategy, then the card counter generally starts counting with an initial-running count of zero. Whenever a card is exposed, a counter adds the count value of that rank of card to a running total, known as the 'running count'. 
 
 At the beginning of each subsequent round of play, the card counter divides the running count by their own estimate of the number of decks remaining in the stack. Card counters refer to this action as performing a true-count conversion.
@@ -51,26 +31,6 @@ If the bet spread is large enough, and if the house edge is low enough, then car
 MODELING THE BEHAVIOR OF HUMAN CARD COUNTERS: UNBALANCED-CARD-COUNTING STRATEGIES
 
 Unbalanced-card-counting strategies call for players to assign count values to each rank of card such that when added together these count values do not equal zero. For example, the following is an unbalanced-card-counting strategy that works well for the computer-controlled player in a simulation of the second-optional embodiment wherein: Each deck of cards consists of thirteen ranks of each of Four French suits.  The count values assigned individually to the cards by rank are as follows. Each card bearing indicia representative of the rank of ace, counts as negative one. Each card bearing indicia representative of a rank selected from a group of ranks consisting of two, three, four, five, and six, counts as positive one. Each card bearing indicia representative of the rank of seven, counts as positive zero-point-five. Each card bearing indicia representative of a rank selected from a group of ranks consisting of eight and nine, counts as zero. Each card bearing indicia representative of a rank selected from a group of ranks consisting of ten, jack, queen, and king, counts as negative one. 
-
-The following table shows that the sum of all count values assigned to all of the ranks of cards in each fifty-two card deck is not equal to zero. The sum is equal to positive two. There is not a balance of positive point counts and negative point counts and as such, this card-counting strategy is an unbalanced-card-counting strategy.
-
-Rank			Count Value		Number Of Cards 		TOTAL 
-
-Ace			  -1			          4				        -4
-Two			  +1			          4				        +4
-Three			+1			          4				        +4
-Four 			+1			          4				        +4
-Five			+1			          4				        +4
-Six			  +1			          4				        +4
-Seven 		+0.5			        4				        +2
-Eight 		 0			          4				         0		
-Nine			 0			          4				         0
-Ten			  -1			          4				        -4
-Jack			-1			          4				        -4
-Queen			-1			          4				        -4
-King			-1			          4				        -4			
-___________________________________________________________________
-Totals 		+0.5    	        52				      +2
 
 There are two surplus count points per each fifty-two-card deck in play. On average, this causes the running count to drift upward during the course of dealing a significant portion of the stack from a shoe. When the running count reaches a certain "key count", then the running count indicates to the card counter that on average the expected value of the game wager is favorable to the player.  The card counter knows it is time to increase the size of the game wager. The key count is a significantly higher number than the initial-running count. In practice, if a card counter is using an unbalanced-card-counting strategy, then the card counter can use any number as an initial-running count.
 
