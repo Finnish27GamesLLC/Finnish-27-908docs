@@ -1,0 +1,200 @@
+enter the 'folder/filename prefix' of the set of files
+containing data about the set of strategy tables
+and matching user-defined set of game rules
+to be loaded into program memory.
+J23h25s6d/game13
+ 
+enter the 'folder/filename prefix' of the files
+to be used to store application output.
+908docs/J23h25s6dgame13B
+ 
+strategy loaded is described as follows: 
+open J23h25s6d/game13i.txt to see a list of user-defined game rules             
+ 
+if this is acceptable, then type 'y' and press enter,
+else press enter 
+y
+ 
+A game wager is an agreement between the player and the dealer that
+the party that has made an incorrect prediction about the uncertain
+outcome of the game will forfeit an item of value to the other.
+ 
+Define the prediction made by the computer-controlled player: 
+ 
+Press enter for the player predicts the outcome of the game will be
+the player's hand wins.
+Press 1 and enter for the player predicts the outcome of the game will be
+the dealer's hand wins.
+Press 2 and enter for the player predicts the outcome of the game will be
+a stalemate.
+ 0 
+ 
+Press 1 and enter to add rules for complete hands that
+make qualifying-five-card-poker-hands, else press enter.
+ 0 
+ 
+press 'y' and enter to load an E-Z-count strategy, else press enter 
+
+ 
+press 1 and enter for default count values, else press enter 
+ 1 
+ 
+what is the count value of  0 's (-2 )
+ 
+what is the count value of  1 's (-2 )
+ 
+what is the count value of  2 's (-1 )
+ 
+what is the count value of  3 's (-1 )
+ 
+what is the count value of  4 's (-1 )
+ 
+what is the count value of  5 's ( 0 )
+ 
+what is the count value of  6 's ( 0 )
+ 
+what is the count value of  7 's ( 0 )
+ 
+what is the count value of  8 's ( 1 )
+ 
+what is the count value of  9 's ( 1 )
+ 
+what is the count value of  10 's ( 1 )
+ 
+what is the count value of  11 's ( 1 )
+ 
+what is the count value of  12 's ( 1 )
+ 
+what is the count value of  13 's ( 1 )
+ 
+press 1 and enter for true count conversion, else press enter 
+ 0 
+ 
+input a constant added to render the bet count, else press enter 
+ 0 
+ 
+Press 1 and enter to load a file containing data about
+matching play variation indices and thereby enable
+the computer-controlled player to vary playing strategy
+in response to changes in the bet count.
+ 0 
+ 
+press 1 and enter to use ongoing simulation results
+to generate an E-Z-count strategy, else press enter
+ 0 
+ 
+Press 1 and enter to mathematically balance 
+the card counting strategy if unbalanced, else press enter
+ 0 
+ 
+press 1 and enter for the dealer uses the number of rounds dealt
+to determine when to reshuffle the stack of playing cards, else press enter.
+ 0 
+ 
+ 
+ 99 % is the maximum percentage of the stack of cards 
+remaining in the shoe when the dealer reshuffles.
+ 
+if this is acceptable, then type y and press enter,
+else press enter 
+
+ 
+ 
+input the maximum percentage of the stack of cards remaining in the shoe when the dealer reshuffles (15-99)
+ 99 
+ 
+ 
+press 1 and enter for if the bet count does fall below a user-defined threshold, 
+then the computer-controlled player quits the table, else press enter 
+ 0 
+ 
+press 1 and enter for if the bet count does rise above a user-defined threshold,
+then the dealer reshuffles, else press enter 
+ 0 
+ 
+press 1 and enter for the computer-controlled player uses 
+a multiplicative betting strategy, else press enter 
+ 0 
+ 
+press 1 and enter for the computer-controlled player uses 
+an exponential betting strategy, else press enter 
+ 0 
+ 
+press 1 and enter for the computer-controlled player limits
+bet size by percentage of purse, else press enter 
+ 0 
+ 
+press 1 and enter for the computer-controlled player limits
+bet size by number of credits, else press enter 
+ 0 
+ 
+press 1 and enter for the computer-controlled player uses
+the plateau betting strategy, else press enter 
+ 0 
+ 
+press 1 and enter for the computer-controlled player uses
+the proportional betting strategy, else press enter 
+ 0 
+ 
+input as a number of credits the starting purse
+ 0 
+ 
+compute bets in multiples of what number of credits
+ 1 
+ 
+input as a number of credits the table minimum
+ 1 
+ 
+input as a number of credits the table maximum
+ 1 
+ 
+input as a number of credits the fee paid for every 100 credits bet
+ 0 
+ 
+Press 1 and enter for dealer makes bonus payouts a multiple of the table minimum
+on a predetermined-winning-complete hand consisting of a pair of jokers,
+else press enter.
+ 0 
+ 
+Press 1 and enter for dealer makes bonus payouts a multiple of the table minimum
+on a predetermined-winning-complete hand consisting of an ace and a king,
+else press enter.
+ 0 
+ 
+input the minimum wager required to qualify for the super bonus payouts on
+mixed suits 9-9-9 against any dealer 9-9
+and same suit 9-9-9 against any dealer 9-9
+ 0 
+ 
+press 1 and enter to add rules to specify the following.
+If, upon the dealer's turn, the dealer will draw at least one playing card to
+the dealer's-initial hand, if rules limit the player's options to a choice of
+hit and stand, and if the player's-hand total is less than a minimum-hand total
+specified by the user for the type of hand that the player has, then the player
+is required to draw additional playing cards to the player's hand, one at a
+time, until the player's-hand total is at least equal to the minimum-hand total
+specified by the user for the type of hand the player has, else press enter.
+ 1 
+ 
+input the minimum-hand total specified for the player's-hard hands.
+ 15 
+ 
+input the minimum-hand total specified for the player's-soft hands.
+ 23 
+ 
+input the number of additional players at the table (0-6)
+ 0 
+ 
+input the number of sessions in this simulation 
+ 100 
+ 
+input the number of rounds of play in each session 
+ 10000000 
+ 
+a brief description of simulation parameters reads as follows: 
+open 908docs/J23h25s6dgame13Bi.txt to see a list of simulation parameters
+
+
+START: 05-23-2016 05:33:05
+
+END:   05-23-2016 07:36:51
